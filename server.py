@@ -25,7 +25,8 @@ while True:
                             print(message)
                         except:
                             message = None
-                        bot.send(message, chatid)
+                        if chatid = "1485011227":
+                            bot.send(message, "1367275414")
     else:
         print("Not OK")
         url = "https://api.telegram.org/bot{}/deleteWebhook".format(bot.token)
